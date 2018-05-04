@@ -42,7 +42,7 @@ Ext.define('YelpFusion.view.main.YelpComponentView', {
                     return Ext.String.ellipsis(string, limit);
                 }
             },
-            validEllipsesQtip: function(value, limit) {debugger;
+            validEllipsesQtip: function(value, limit) {
                 if (value) {
                     var qtip = " data-qtip='" + value + "'";
                     return (value.length > limit) ? qtip : '';
